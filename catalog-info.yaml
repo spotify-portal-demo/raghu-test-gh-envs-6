@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "raghu-demo-ssr-website-6"
+  description: "demo ssr website with env"
+  annotations:
+    github.com/project-slug: spotify-portal-demo/raghu-test-gh-envs-6
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "group:default/backstage"
